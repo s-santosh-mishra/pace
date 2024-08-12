@@ -1,0 +1,29 @@
+
+
+/* new css */
+
+.abt-us p{
+   padding-inline: 50px;
+   line-height: 30px;
+}
+
+.abt-us h1{
+   padding: 10px;
+}
+
+.abt-crt p{
+   padding-inline: 50px;
+   line-height: 30px;
+}
+
+.abt-crt h2{
+   padding: 10px;
+}
+
+.abt-btn {
+   padding-block: 30px;
+}
+marquee {
+   padding-top: 20px;
+}
+

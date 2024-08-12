@@ -1,0 +1,227 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-size: large;
+}
+
+a {
+   text-decoration: none;
+   color: aqua;
+   transition: 0.2s ease-out;
+}
+a:hover {
+   color: white;
+}
+i {
+   padding-left: 50px;
+}
+
+h1 {
+   font-size: 2.2rem;
+}
+
+ul li {
+   list-style: none;
+   padding: 5px;
+}
+
+.head-link {
+   display: flex;
+}
+/* new css */
+
+.lin {
+   display: none;
+   color: black;
+}
+
+.lin:hover {
+   color: rgb(48, 54, 229);
+}
+/* end */
+.top {
+   position: fixed;
+   background-color: white;
+   
+}
+
+.container {
+   font-size: larger;
+   display: flex;
+   width: 100vw;
+   align-items: center;
+   font-size: larger;
+   padding-block: 20px;
+   padding-left: 20px;
+   /* padding-block: 10px; */
+   border-bottom: 1px solid black;
+   position: fixed;
+   background-color: white;
+}
+
+a.link {
+   color: black;
+}
+
+.header {
+   padding-bottom: 5px;
+}
+
+.header1 {
+   display: flex;
+   justify-content: space-around;
+   align-items:center;
+}
+
+.link {
+   text-decoration: none;
+   padding-inline: 30px;
+   padding-block: 5px;
+   margin-top: 20px;
+   border-radius: 8px;
+}
+
+
+.link:hover {
+   color: rgb(48, 54, 229);
+   position: relative;
+   top: 10px;
+}
+.active {
+   position: relative;
+   top: 10px;
+   text-decoration: underline;
+}
+.head {
+   background-image: url(laptop-office-plant-black-background-top-view-min.jpg);
+   background-size: cover;
+   color: white;
+   padding-block: 100px;
+}
+
+.intro {
+   padding-top: 80px;
+   width: 50%;
+   text-align: center;
+}
+
+.head_sec {
+   width: 70%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   row-gap: 30px;
+}
+
+.head_para {
+   font-size: larger;
+}
+
+.primary-button1 {
+   border: 0.5px solid;
+   border-radius: 6px;
+   margin: 0;
+   padding: 10px 10px;
+   background-color: rgb(64, 54, 244);
+   color: white;
+   transition: 0.2s ease-out;
+}
+.main {
+   background-color: rgba(230, 229, 229, 0.748);
+}
+
+.primary-button1:hover {
+   background-color: rgba(23, 20, 74, 0.906);
+}
+
+.img_1 {
+   max-width: 1800px;
+}
+.course_list {
+   /* background-image: url(pace_logo-removebg-preview.png); */
+   padding-inline: 50px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   gap: 50px;
+}
+
+.courses {
+   border: 2px solid black;
+   width: 180px;
+   height: 200px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   background-color: rgba(255, 255, 255, 0.744);
+   box-shadow: 2px 2px 5px rgb(129, 125, 125);
+}
+
+.our_course {
+   text-align: center;
+   padding-block: 40px;
+}
+
+.img_slide {
+   /* height: 200px; */
+   margin-top: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   margin: auto;
+   gap: 50px;
+   /* overflow: hidden; */
+
+}
+
+.img_cert {
+   margin: auto;
+   height: 100%;
+   width: 200px;
+}
+
+.foot {
+   width: 100%;
+   /* margin: auto; */
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   background-color: rgba(0, 0, 0, 0.75);
+   color: white;
+}
+
+.first_foot,
+.thd {
+   padding-block: 60px;
+}
+
+.foot-para,
+.foot-link {
+   
+   width: 450px;
+   height: 50px;
+   border: 1px rgb(245, 241, 241) solid;
+   border-radius: 8px;
+   padding: 10px;
+   margin-block: 10px;
+   font-size: large;
+}
+
+.scd_foot {
+   background-color: rgba(0, 0, 0, 0.75);
+   color: white;
+   text-align: center;
+   padding: 8px;
+}
+
+.cert_dec {
+   padding-bottom: 50px;
+}
+
+/* media query */
+
