@@ -13,13 +13,15 @@
     <header class="top">
         <div class="container">
             <div class="on-mob">
+                <div class="header" style="font-size: larger;"><i class="fa-solid fa-bars" id="tdot"></i></div>
                 <div class="header" style="font-size: larger;">PACE</div>
             </div>
-        <div class="head-link">
+        <div class="head-link" id="to_be_shown">
             <div class="header"><a href="#" class="link active invi">Home</a></div>
             <div class="header"><a href="/allCourses.html" class="link invi">All courses</a></div>
             <div class="header"><a href="/certificate.html" class="link invi">Certificates</a></div>
-            <div class="header"><a href="#cert" class="link invi">Contact Us</a></div>
+            <div class="header"><a href="tel:9937436940" class="link invi">Contact Us</a></div>
+            <div class="header"><a href="#cert" class="link invi">Notes</a></div>
         </div>
         </div>
     </header>
@@ -59,7 +61,7 @@
 
                 <div class="courses">
                     <h3>PGDCA</h3>
-                    <p>Duration : 1 year</p><br><br>
+                    <p>Duration : ! year</p><br><br>
                     <a href="/allCourses.html" class="primary-button1">Learn More</a>
                 </div>
 
@@ -140,6 +142,16 @@
             Copyright © 2024 PACE. All rights reserved
         </div>
     </footer>
+
+    <script>
+        let ham_burg = document.getElementById("tdot")
+        let to_be_shown = document.getElementById("to_be_shown")
+        
+        ham_burg.addEventListener("click",()=> {
+            to_be_shown.classList.toggle("head-link1")
+        })
+
+    </script>
 
 
     <script src="https://kit.fontawesome.com/330033b57f.js" crossorigin="anonymous"></script>
