@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PACE/Notes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <style>
+        body {
+            background-color: rgba(230, 229, 229, 0.748);
+        }
+
+        #not-so {
+            padding-left: 5px !important;
+        }
+
+        .note_container {
+            width: 80%;
+            margin-inline: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="top">
+        <div class="container">
+            <div class="on-mob">
+                <div class="header" style="font-size: larger;"><i class="fa-solid fa-bars" id="tdot"></i></div>
+                <div class="header" style="font-size: larger;">PACE</div>
+            </div>
+            <div class="head-link head-link1" id="to_be_shown">
+                <div class="header"><a href="#" class="link invi">Home</a></div>
+                <div class="header"><a href="/allCourses.html" class="link invi">All courses</a></div>
+                <div class="header"><a href="/certificate.html" class="link invi">Certificates</a></div>
+                <div class="header"><a href="tel:9937436940" class="link invi">Contact Us</a></div>
+                <div class="header"><a href="/notes.html" class="link invi active">Notes</a></div>
+            </div>
+        </div>
+    </header>
+    <br><br><br><br>
+
+    <script>
+        alert("This website has been exclusively developed, designed, and meticulously maintained by Santosh Kumar Mishra. All the content and notes provided herein are authored by Santosh Kumar Mishra. PACE is not associated with this website in any capacity. For additional inquiries, please contact the website host.")
+    </script>
+
+
+    <main class="main">
+        <br><br><br>
+
+        <div class="note_container">
+            <p><i class="fa-solid fa-circle-exclamation" id="not-so"></i><span>&nbsp;This website has been exclusively
+                    developed,
+                    designed, and meticulously maintained by Santosh Kumar Mishra. All the content and notes provided
+                    herein
+                    are authored by Santosh Kumar Mishra. PACE is not associated with this website in any capacity. For
+                    additional inquiries, please contact the website host.</span></p><br><br>
+            <a href="mailto:santoshku.mishra03@gmail.com" class="primary-button1">Contact Host</a><br><br>
+        </div>
+
+
+        <section id="course" class="course_sec">
+            <h1 class="our_course">Download Notes</h1>
+            <hr><br><br>
+            <div class="course_list">
+                <div class="courses">
+                    <h3>Complete HTML</h3>
+                    <p>Length : 17 pages</p><br>
+                    <a href="https://drive.google.com/file/d/1zd5SiUthQhgWARjId7EkS18PYB7LdvEg/view?usp=drive_link"
+                        class="primary-button1">Download<i class="fa-solid fa-file-arrow-down" id="not-so"></i></a>
+                </div>
+
+                <div class="courses">
+                    <h3>Complete CSS</h3>
+                    <p>Length : 17 pages</p><br><br>
+                    <a href="https://drive.google.com/file/d/1QvFZaDqoRTRzxpafT3YYp4iVNnsQC7mb/view?usp=drive_link"
+                        class="primary-button1">Download<i class="fa-solid fa-file-arrow-down" id="not-so"></i></a>
+                </div>
+
+                <div class="courses">
+                    <h3>Complete javaScript</h3>
+                    <p>Length : 17 pages</p><br><br>
+                    <a href="https://drive.google.com/file/d/1btS2Qqj6vk7PPnT9mbPjNm_P_aVXDiRU/view?usp=drive_link"
+                        class="primary-button1">Download<i class="fa-solid fa-file-arrow-down" id="not-so"></i></a>
+                </div>
+
+            </div>
+
+        </section>
+        <br><br>
+        <marquee behavior="" direction=""><i class="fa-solid fa-circle-exclamation" id="not-so"></i>&nbsp;&nbsp;More
+            notes coming soon</marquee>
+
+    </main>
+
+
+
+
+
+
+
+    <br><br>
+    <footer>
+        <div class="foot">
+            <div class="first_foot">
+                <p class="foot-para">Host : Santosh Kumar Mishra</p>
+                <p id="foot-link" class="foot-link">Contact Me :
+                    <a href="mailto:santoshku.mishra03@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                    <a href="tel:9178299774"><i class="fa-solid fa-phone"></i></a>
+                    <a href="https://wa.me/9178299774" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="www.linkedin.com/in/santosh-mishra-087b36307" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                </p>
+            </div>
+
+            <div class="thd">
+                <h3>Useful links :</h3>
+                <ul>
+                    <li><a href="/index.html">Home page</a></li>
+                    <li><a href="/allCourses.html">All courses</a></li>
+                    <li><a href="tel:9937436940">Contact</a></li>
+                    <li><a href="/certificate.html">Certificates</a></li>
+                    <li><a href="/notes.html">Notes</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <hr>
+
+        <div class="scd_foot">
+            Copyright © 2024 PACE. All rights reserved
+        </div>
+    </footer>
+
+    <script>
+        let ham_burg = document.getElementById("tdot")
+        let to_be_shown = document.getElementById("to_be_shown")
+
+        ham_burg.addEventListener("click", () => {
+            to_be_shown.classList.toggle("head-link1")
+        })
+
+    </script>
+
+
+    <script src="https://kit.fontawesome.com/330033b57f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
