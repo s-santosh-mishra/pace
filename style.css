@@ -43,7 +43,6 @@ ul li {
 .top {
    position: fixed;
    background-color: white;
-   
 }
 
 .container {
@@ -225,3 +224,14 @@ a.link {
 
 /* media query */
 
+
+.on-mob {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 10px;
+}
+
+#tdot {
+   display: none;
+}
