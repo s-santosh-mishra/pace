@@ -48,7 +48,7 @@
     </script>
 
 
-    <main class="main">
+    <main class="main" id="body1">
         <br><br><br>
 
         <div class="note_container">
@@ -143,13 +143,18 @@
     </footer>
 
     <script>
+       alert("Admission Open now! Hurry seats are limited...Contact us now")
+        let body_touch = document.getElementById("body1")
         let ham_burg = document.getElementById("tdot")
         let to_be_shown = document.getElementById("to_be_shown")
-
-        ham_burg.addEventListener("click", () => {
+        
+        ham_burg.addEventListener("click",()=> {
             to_be_shown.classList.toggle("head-link1")
         })
 
+        body_touch.addEventListener("click", () => {
+            to_be_shown.classList.add("head-link1")
+        }, true)
     </script>
 
 
