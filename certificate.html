@@ -20,7 +20,7 @@
                     <div class="header" style="font-size: larger;"><i class="fa-solid fa-bars" id="tdot"></i></div>
                     <div class="header" style="font-size: larger;">PACE</div>
                 </div>
-            <div class="head-link" id="to_be_shown">
+            <div class="head-link head-link1" id="to_be_shown">
                 <div class="header"><a href="/index.html" class="link invi">Home</a></div>
                 <div class="header"><a href="/allCourses.html" class="link invi">All courses</a></div>
                 <div class="header"><a href="/certificate.html" class="link active invi">Certificates</a></div>
@@ -30,7 +30,7 @@
             </div>
         </header>
         <br><br><br><br>
-
+        <section id="body1">
         <div class=" about">
             <div class="abt-us">
                 <h1>About us</h1><hr>
@@ -70,7 +70,7 @@
                 </div>
         </section>
 
-
+        </section>
         <footer>
             <div class="foot">
                 <div class="first_foot">
@@ -103,12 +103,18 @@
         </footer>
 
         <script>
-            let ham_burg = document.getElementById("tdot")
-            let to_be_shown = document.getElementById("to_be_shown")
-            
-            ham_burg.addEventListener("click",()=> {
-                to_be_shown.classList.toggle("head-link1")
-            })
+            alert("Admission Open now! Hurry seats are limited...Contact us now")
+        let body_touch = document.getElementById("body1")
+        let ham_burg = document.getElementById("tdot")
+        let to_be_shown = document.getElementById("to_be_shown")
+        
+        ham_burg.addEventListener("click",()=> {
+            to_be_shown.classList.toggle("head-link1")
+        })
+
+        body_touch.addEventListener("click", () => {
+            to_be_shown.classList.add("head-link1")
+        }, true)
     
         </script>
 
